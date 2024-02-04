@@ -40,7 +40,7 @@ listContainer.addEventListener('click', function (e) {
         }
     }
 }, false);
-// 儲存代辦清單
+// 儲存待辦清單
 function saveData() {
     localStorage.setItem('data', listContainer.innerHTML)
 }
